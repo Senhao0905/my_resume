@@ -1,0 +1,168 @@
+@charset "UTF-8";
+body {
+  margin: 0;
+}
+
+.container {
+  font-family: "微軟正黑體", sans-serif;
+  background-color: white;
+  height: auto;
+  width: 900px;
+  margin: 0 auto;
+  box-shadow: 0px 0px 12px black;
+}
+.container .picture_titileword {
+  width: 100%;
+  background-color: rgb(56, 61, 66);
+  background-image: url("./FFFFFFFF.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.container .picture_titileword .pic {
+  height: 50%;
+  margin-top: 30px;
+}
+.container .picture_titileword .titleword {
+  height: 50%;
+}
+.container .picture_titileword img {
+  width: 100%;
+  border-radius: 80%;
+}
+.container .picture_titileword h1, .container .picture_titileword h2 {
+  color: white;
+  text-align: center;
+}
+.container .picture_titileword h2 {
+  font-size: 18px;
+}
+.container .profile {
+  width: auto;
+}
+.container .profile hr {
+  border: 1px black solid;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+.container .profile .profiletitle, .container .profile .educationtitle {
+  margin-top: 30px;
+  margin-left: 50px;
+  margin-right: 50px;
+}
+.container .profile .profiletitle h2, .container .profile .profiletitle h3, .container .profile .educationtitle h2, .container .profile .educationtitle h3 {
+  display: inline;
+}
+.container .profile .profiletitle h2, .container .profile .educationtitle h2 {
+  font-size: 36px;
+  margin-right: 15px;
+}
+.container .profile .profiletitle h3, .container .profile .educationtitle h3 {
+  font-size: 28px;
+  color: rgb(56, 61, 66);
+}
+.container .profile .profileword p, .container .profile .educationword p {
+  font-size: 18px;
+  font-weight: bold;
+  margin-left: 50px;
+  margin-right: 50px;
+}
+.container .profile .educationword {
+  margin-bottom: 50px;
+}
+.container .skill {
+  background-color: rgb(56, 61, 66);
+  width: auto;
+}
+.container .skill hr {
+  border: 1px white solid;
+  margin: 0 20px 0 20px;
+}
+.container .skill .skilltitle {
+  padding-top: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.container .skill .skilltitle h2, .container .skill .skilltitle h3, .container .skill .skillword h2, .container .skill .skillword h3 {
+  margin-bottom: 20px;
+}
+.container .skill .skilltitle h2, .container .skill .skillword h2 {
+  font-size: 36px;
+  margin-right: 15px;
+}
+.container .skill .skilltitle h3, .container .skill .skillword h3 {
+  padding-top: 10px;
+  font-size: 28px;
+}
+.container .skill .skilltitle p, .container .skill .skillword p {
+  font-size: 18px;
+}
+.container .skill .skilltitle h2, .container .skill .skilltitle h3, .container .skill .skilltitle p, .container .skill .skillword h2, .container .skill .skillword h3, .container .skill .skillword p {
+  color: white;
+  text-align: center;
+}
+.container .skill .skillword {
+  padding-bottom: 30px;
+}
+.container .workexperience {
+  width: auto;
+  height: 450px;
+}
+.container .workexperience hr {
+  border: 1px black solid;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+.container .workexperience .experiencetitle {
+  margin-top: 10px;
+  margin-left: 50px;
+  margin-right: 50px;
+}
+.container .workexperience .experiencetitle h2, .container .workexperience .experiencetitle h3 {
+  display: inline;
+}
+.container .workexperience .experiencetitle h2 {
+  font-size: 36px;
+  margin-right: 15px;
+}
+.container .workexperience .experiencetitle h3 {
+  font-size: 28px;
+  color: rgb(56, 61, 66);
+}
+.container .workexperience .workname .work1, .container .workexperience .workname .work2 {
+  display: flex;
+  justify-content: start;
+  margin: 0 30px 0 30px;
+}
+.container .workexperience .workname .work1 h2, .container .workexperience .workname .work1 h3, .container .workexperience .workname .work2 h2, .container .workexperience .workname .work2 h3 {
+  font-size: 28px;
+  text-align: center;
+  margin: 0;
+}
+.container .workexperience .workname .work1 h2, .container .workexperience .workname .work2 h2 {
+  color: rgb(56, 61, 66);
+  font-size: 16px;
+  padding-top: 10px;
+  margin-right: 10px;
+}
+.container .workexperience .workname p {
+  color: rgb(56, 61, 66);
+  font-weight: bold;
+  font-size: 18px;
+  margin: 0;
+  margin-left: 55px;
+  margin-top: 5px;
+}
+.container .workexperience .workname ol {
+  padding-left: 75px;
+}
+.container .workexperience .workname ol li {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}/*# sourceMappingURL=style.css.map */
